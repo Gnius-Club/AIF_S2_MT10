@@ -1,24 +1,286 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playbook Misión 10 : La Ética de los Assets IA (Nivel 2)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
-</body>
 
+    <header>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Misión 10 : La Ética de los Assets IA (Nivel 2)</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">📝</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+                <li><a href="#activity-5">5</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Misión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Reflexionar sobre el impacto social y las responsabilidades éticas del uso de IA generativa.</li>
+                                        <li>Analizar temas como el sesgo, la desinformación y el impacto en los creadores humanos.</li>
+                                        <li>Construir un razonamiento ético propio a través de un diálogo socrático guiado por IA.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">⚡Saludo Interactivo con IA:</strong> Contextualización de la misión como una pausa ética.</li>
+                                        <li><strong class="tactic-highlight">⚡"I Can Statement" + Presentación del Desafío:</strong> Introducción al concepto de juicio crítico.</li>
+                                        <li><strong class="tactic-highlight">⚡AI GYM:</strong> Preparación para el diálogo socrático y presentación del primer escenario.</li>
+                                        <li><strong class="tactic-highlight">⚡Brain Spark:</strong> Ejecución del diálogo socrático individual con Xolo sobre múltiples escenarios.</li>
+                                        <li><strong class="tactic-highlight">⚡Gnius STORM:</strong> Retroalimentación estructurada entre pares sobre las conclusiones éticas alcanzadas.</li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Una postura ética personal y fundamentada sobre los escenarios discutidos, articulada y compartida durante el Gnius STORM. El entregable es una competencia de razonamiento crítico.</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Acceso al Chat "Agente Gnius" (Xolo) para cada estudiante.</li>
+                                        <li>Presentación de diapositivas (Diapositivas 1-11).</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Asegurar que Xolo está programado para actuar como un moderador socrático, respondiendo con preguntas de seguimiento en lugar de respuestas directas.</li>
+                                                <li>Internalizar los tres escenarios éticos (Impacto en Artistas, Desinformación, Sesgo) para guiar la discusión si es necesario.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Prepararse para una sesión basada en el debate y la reflexión, no en la instrucción técnica. El rol del facilitador es el de un moderador de un seminario.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Saludo de I.A. y Contexto de Misión ⏰ 3 minutos</h2>
+                <p>Establecer un ambiente de trabajo reflexivo y contextualizar la misión como un ejercicio de responsabilidad.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Bienvenida y Contexto ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 2) El facilitador da la bienvenida y presenta la pausa ética en la construcción.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Creadores. Han demostrado una gran habilidad técnica y creativa. Han usado IAs para generar imágenes, texto y sonido. Son herramientas poderosas. Pero todo poder conlleva una responsabilidad. Hoy, haremos una pausa en la construcción. Nuestra misión no es técnica, es ética. Analizaremos juntos el impacto de las herramientas que usan."</p>
+                            </div>
+                        </div>
+                    </div>
+                      <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Activación de IA y Perfil ⏰ 2 minutos</h3>
+                            <p>El facilitador da la instrucción explícita a los alumnos para que saluden a Xolo en el chat.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Activen su sesión de trabajo para la Misión 10. Ya conocen el procedimiento estándar para iniciar el diálogo con Xolo."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: "I Can Statement" y Presentación del Desafío ⏰ 5 minutos</h2>
+                <p>Clarificar las metas de aprendizaje y presentar el razonamiento ético como una habilidad clave.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: El Desafío del Día ⏰ 3 minutos</h3>
+                            <p>(Proyectar Diapositiva 3) El facilitador eleva el nivel de la discusión ética.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Hasta ahora, la pregunta ética principal ha sido '¿de quién es el trabajo?'. Hoy, elevaremos esa discusión. ¿Qué pasa cuando estas herramientas se usan para crear contenido que parece real pero no lo es? No hay respuestas fáciles. El objetivo de hoy es que cada uno de ustedes, en diálogo directo con Xolo, construya su propio razonamiento ético. Aprendan a hacer las preguntas correctas."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Objetivo de Aprendizaje (I Can Statement) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 4) El facilitador presenta el objetivo de aprendizaje concreto de la sesión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Al finalizar esta sesión, podrán afirmar con convicción: <strong>'Yo puedo analizar y debatir sobre el impacto social y la responsabilidad ética del creador al utilizar herramientas de IA generativa, basándome en un diálogo razonado con una IA.'</strong>"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: A.I. GYM ⏰ 10 minutos</h2>
+                <p>Preparar a los estudiantes para el diálogo socrático, estableciendo las reglas de enfrentamiento y presentando el primer escenario.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Diálogo Conceptual con Xolo ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 5) El facilitador instruye a los estudiantes sobre cómo iniciar su diálogo ético con Xolo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Entramos al A.I. GYM. Hoy no construirán con código, sino con argumentos. Para comenzar el debate, deben entender las reglas. Díganle a Xolo: <strong>'Xolo, explícame tu rol como moderador de diálogo ético y preséntame el primer escenario de análisis.'</strong> Él establecerá su función como su contraparte socrática y les planteará la primera pregunta del día, que deben responder justificando su postura."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                 <h2>⚡ Actividad 4: Brain Spark ⏰ 15 minutos</h2>
+                <p>Supervisar el diálogo socrático individual de los estudiantes con Xolo, mientras analizan múltiples escenarios éticos.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Diálogo Socrático Individual ⏰ 10 minutos</h3>
+                            <p>(Proyectar Diapositiva 6) Los estudiantes inician y mantienen un diálogo individual con Xolo, respondiendo a sus preguntas de seguimiento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Inicia el Brain Spark. Respondan a la primera pregunta de Xolo sobre el Escenario 1. Él no les dará la razón; les hará una pregunta de seguimiento que desafiará su lógica. Su tarea es refinar su argumento con cada pregunta. No busquen una respuesta 'correcta', busquen un razonamiento 'sólido'."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Continuación del Diálogo ⏰ 5 minutos</h3>
+                            <p>(Proyectar Diapositiva 7) El facilitador monitorea mientras Xolo introduce los escenarios de Desinformación y Sesgo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                 <p class="dialogue assistant">(Circulando) "Veo que están llegando a las consecuencias sistémicas. Xolo ahora les está presentando nuevos escenarios sobre desinformación y sesgo. Apliquen el mismo rigor a sus respuestas. Analicen las implicaciones a gran escala, no solo el acto individual. Su objetivo es construir una postura ética consistente a través de los tres casos."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-5">
+                <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
+                <p>Moderar una fase de retroalimentación estructurada para compartir y contrastar las conclusiones éticas alcanzadas.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Think (Reflexión Individual) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 8) El facilitador guía una breve reflexión para que cada estudiante sintetice su conclusión.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Tiempo. Reflexión individual. Después de su diálogo con Xolo, sinteticen su postura en un principio ético clave. ¿Cuál fue la conclusión más importante a la que llegaron? ¿Hubo una pregunta de Xolo que fue el punto de inflexión en su razonamiento?"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Pair (Intercambio en Parejas) ⏰ 2 minutos</h3>
+                            <p>(Proyectar Diapositiva 9) En parejas, los estudiantes comparten y explican el principio ético al que llegaron.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"En parejas. Compartan el principio ético o la conclusión final a la que llegaron. Expliquen brevemente la línea de razonamiento que siguieron con Xolo para llegar ahí. El compañero escucha para entender y preparar feedback."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Share (Retroalimentación Estructurada) ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 10) El facilitador provee una estructura para que el feedback se centre en el razonamiento.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"Para dar feedback, usen esta estructura: <strong>1. 'Tu razonamiento sobre [tema] me parece sólido porque...' 2. 'Una pregunta que me surge de tu conclusión es...' 3. 'Un aspecto que no había considerado y que mencionaste es...'</strong>"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Síntesis y Cierre ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 11) El facilitador concluye la sesión, consolidando la importancia del juicio crítico.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"La habilidad más importante que han desarrollado hoy no es técnica, sino de juicio crítico. Ser un creador en la era de la IA no es solo saber usar las herramientas, es saber cuándo y cómo usarlas de manera ética. Esta reflexión es lo que los diferenciará como líderes. En el próximo módulo, nos sumergiremos en el diseño de juegos y mecánicas avanzadas en Realidad Virtual."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
